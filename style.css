@@ -307,7 +307,7 @@ textarea.feedback-input {
 
 /* FOOTER */
 footer {
-  background-color: #000;
+  background-color:  rgb(34, 34, 40);
   color: #fff;
   height: 120px;
   padding: 40px;
@@ -371,6 +371,6 @@ footer {
 .copyright {
   margin-right: 25%;
   text-align: center;
-  color: rgb(163, 16, 11);
+  color: rgb(163, 51, 6);
   float: left;
 }
