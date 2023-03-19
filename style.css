@@ -181,13 +181,16 @@ a {
   width: 100%;
   margin: 0 auto;
   margin: bottom 50px;
+  max-width: 1170px;
 }
 
 /*. Bagian MOVIE BODY  */
+.clear {
+  clear: left;
+}
 .movies-wrapper {
-  height: 500px;
   text-align: center;
-  background-color: rgb(34, 34, 40);
+  background-color: rgb(26, 26, 31);
 }
 .movies-wrapper h1 {
   margin-bottom: 20px;
@@ -282,12 +285,11 @@ span {
   opacity: 0.7;
 }
 
-
 textarea.feedback-input {
   height: 100px;
 }
 
-.btn-submit{
+.btn-submit {
   display: block;
   margin: 20px auto 0;
   background-color: rgb(226, 5, 5);
@@ -304,10 +306,9 @@ textarea.feedback-input {
   background-color: rgb(255, 22, 22);
 }
 
-
 /* FOOTER */
 footer {
-  background-color:  rgb(34, 34, 40);
+  background-color: rgb(34, 34, 40);
   color: #fff;
   height: 120px;
   padding: 40px;
